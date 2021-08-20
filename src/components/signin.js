@@ -34,7 +34,7 @@ function SignInScreen() {
   if (!isSignedIn) {
     return (
       <div className="sigin">
-        <h2>Hostel Allocation 2</h2>
+        <h2>Hostel Allocation </h2>
         <p>Please sign-in:</p>
         <StyledFirebaseAuth uiConfig={uiConfig} firebaseAuth={firebase.auth()} />
       </div>

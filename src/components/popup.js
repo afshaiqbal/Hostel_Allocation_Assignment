@@ -5,7 +5,8 @@ const Popup=()=>{
         <>
         <div class="modal hidden">
         <button class="close-modal">&times;</button>
-        <h1>Success</h1>
+        <h1 className="heading">Success</h1>
+        
         <p>
          Your room has been booked successfully.
         </p>

@@ -10,6 +10,7 @@ import Booked from './components/booked';
 import Chooseyh from './components/Chooseyh';
 import Chooseah from './components/Chooseah';
 import Floor from './components/Floor';
+import Popup from './components/popup';
 
 export default function App() {
   return (
@@ -19,6 +20,8 @@ export default function App() {
       {/* <Chooseyh/> */}
       {/* <Chooseah/> */}
       <SignInScreen/>
+      {/* <Floor/> */}
+      {/* <Popup/> */}
     </div>
     </BrowserRouter>
   );

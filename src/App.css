@@ -81,13 +81,13 @@
   
     background-color: rgb(137, 204, 137); /* Green */
     border: none;
-    border-radius: 7px;
+    border-radius: 17px;
     color: rgb(15, 15, 15);
     padding: 10px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
     font-weight: bold;
@@ -105,4 +105,23 @@
     cursor: pointer;
     font-weight: bold;
 
+  }
+  .book{
+    background-color: rgb(115, 172, 219); /* Green */
+    border: none;
+    border-radius: 20px;
+    color: rgb(250, 250, 250);
+    padding: 10px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 40px 32px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .floor{
+    background-color: rgb(230, 224, 224);
+    border-radius: 20px;
+    opacity:50%;
   }

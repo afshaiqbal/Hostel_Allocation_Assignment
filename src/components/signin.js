@@ -3,6 +3,8 @@
 import React, { useEffect, useState } from 'react';
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
 import firebase from 'firebase';
+import { BrowserRouter,Router,Link } from 'react-router-dom';
+import Chooseyh from './Chooseyh';
 // Configure FirebaseUI.
 const uiConfig = {
   // Popup signin flow rather than redirect flow.
@@ -32,7 +34,7 @@ function SignInScreen() {
   if (!isSignedIn) {
     return (
       <div className="sigin">
-        <h2>Hostel Allocation</h2>
+        <h2>Hostel Allocation 2</h2>
         <p>Please sign-in:</p>
         <StyledFirebaseAuth uiConfig={uiConfig} firebaseAuth={firebase.auth()} />
       </div>
@@ -42,9 +44,8 @@ function SignInScreen() {
 
 return (
   <div>
-    <h2>Hostel Allocation</h2>
-        <p>Please sign-in:</p>
-    <StyledFirebaseAuth uiCallback={ui => ui.disableAutoSignIn()} uiConfig={uiConfig} firebaseAuth={firebase.auth()}/>
+      <Chooseyh/>
+
   </div>
 );
 

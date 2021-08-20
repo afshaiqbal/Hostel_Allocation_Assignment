@@ -3,3 +3,106 @@
  text-align: center;
  justify-content: space-between;
 }
+.border{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  margin-top: 50px;
+}
+.booked{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  text-align: left;
+  height: max-content;
+  width: max-content;
+  padding: 10px 250px 100px 30px;
+  border: 2px solid black;
+  border-radius: 25px;
+ font-weight: bold;
+}
+.heading{
+  text-align: center;
+}
+.images{
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.girls{
+  font-weight: bold;
+  background-color: rgb(252, 205, 213);
+  padding: 10px 55px 10px 50px;
+  margin: 0;
+  border: 1px solid rgb(252, 205, 213);
+  border-radius: 40px;
+}
+.boys{
+  font-weight: bold;
+  background-color: rgb(212, 240, 247);
+  padding: 10px 55px 10px 50px;
+  margin: 0;
+  border: 1px solid rgb(212, 240, 247);
+  border-radius: 40px;
+}
+
+.image{
+  width: 100px;
+}
+.heading-image{
+  margin-top: 50;
+ height: min-content;
+ text-align: center;
+}
+.button{
+  
+  background-color: gray; /* Green */
+  border: none;
+  border-radius: 7px;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.buttons{
+  align-items: center;
+  text-align: center;
+}
+.button-green{
+  
+    background-color: rgb(137, 204, 137); /* Green */
+    border: none;
+    border-radius: 7px;
+    color: rgb(15, 15, 15);
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .button-green-white{
+    background-color: white; /* Green */
+    border: none;
+    border-radius: 7px;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bold;
+
+  }

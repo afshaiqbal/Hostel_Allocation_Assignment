@@ -3,8 +3,8 @@ import React from 'react';
 const Floor=()=>{
     return(
         <>
-        <h5>Choose a Floor</h5>
-        <div>
+        <h5 className="heading">Choose a Floor</h5>
+        <div className="heading">
             <select>
                 <option value="1st Floor">1st Floor</option>
                 <option value="2nd Floor">2nd Floor</option>
@@ -18,17 +18,25 @@ const Floor=()=>{
                 <option value="10th Floor">10th Floor</option>
             </select>
         </div>
+        <div className="buttons">
         <div>
-                <button value="1st Floor">1</button>
-                <button value="2nd Floor">2</button>
-                <button value="3rd Floor">3</button>
-                <button value="4th Floor">4</button>
-                <button value="5th Floor">5</button>
-                <button value="6th Floor">6</button>
-                <button value="7th Floor">7</button>
-                <button value="8th Floor">8</button>
-                <button value="9th Floor">9</button>
-                <button value="10th Floor">10</button>
+            <p className="button-green">1</p>
+            <p className="button-green">2</p>
+            <p className="button-green">3</p>
+            <p className="button-green">4</p>
+            </div>
+            <div>
+                <p className="button-green">10</p>
+                <p className="button-green-white">  </p>
+                <p className="button-green-white">  </p>
+                <p className="button-green">5</p>
+            </div>
+            <div>
+            <p className="button-green">9</p>
+            <p className="button-green">8</p>
+            <p className="button-green">7</p>
+            <p className="button-green">6</p>
+        </div>
         </div>
         <div>
             <button>Book Room</button>

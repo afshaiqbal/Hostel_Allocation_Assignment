@@ -24,6 +24,7 @@
 }
 .heading{
   text-align: center;
+  align-items: center;
 }
 .images{
   height: 50vh;
@@ -83,7 +84,7 @@
     border: none;
     border-radius: 17px;
     color: rgb(15, 15, 15);
-    padding: 10px 15px;
+    padding: 10px 0px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -91,12 +92,13 @@
     margin: 4px 2px;
     cursor: pointer;
     font-weight: bold;
+    width: 50px;
   }
   .button-green-white{
     background-color: white; /* Green */
     border: none;
     border-radius: 7px;
-    padding: 10px 15px;
+    padding: 10px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -124,4 +126,37 @@
     background-color: rgb(230, 224, 224);
     border-radius: 20px;
     opacity:50%;
+  }
+  .modal-hidden{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    text-align: left;
+    height: max-content;
+    width: max-content;
+    padding: 10px 200px 50px 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: rgb(185, 207, 224);
+    border-radius: 25px;
+   font-weight: bold;
+  }
+  .close-modal{
+    
+    border: 1px white solid;
+    background-color:red;
+    color: white;
+    font-size: 25px;
+    border-radius: 50%;
+    display: flex;
+  justify-content: center;
+  height: 4vh;
+  width: 4vh;
+  
+  }
+  .success{
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
   }

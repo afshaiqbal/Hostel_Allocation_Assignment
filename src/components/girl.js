@@ -1,10 +1,9 @@
 import React from 'react';
-import { BrowserRouter, Link, Route} from 'react-router-dom';
+import { BrowserRouter, Link, Route,Switch} from 'react-router-dom';
 import Floor from './Floor';
 
 const Girl=()=>{
     return(
-        <BrowserRouter>
         <>
         <h1 className="heading-image">Choose A Hostel</h1>
         <div className="buttons" >
@@ -19,10 +18,9 @@ const Girl=()=>{
             <p className="button">G5</p>
             <p className="button">G6</p>
         </div>
-        <Route exact path="/Floor" component={Floor}/>
         </div>
         </>
-        </BrowserRouter>
+    
     );
 }
 export default Girl;

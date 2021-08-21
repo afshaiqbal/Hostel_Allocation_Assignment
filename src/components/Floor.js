@@ -5,7 +5,6 @@ import Popup from "./popup"
  
 const Floor=()=>{
     return(
-        <BrowserRouter>
         <>
         <h5 className="heading">Choose a Floor</h5>
         <div className="heading">
@@ -39,9 +38,9 @@ const Floor=()=>{
         
             <Link to="/Popup" className="book">Book Room</Link>
             </div>
-        <Route exact path="/Popup"component={Popup}/>
+       
         </>
-        </BrowserRouter>
+      
     );
 }
 
